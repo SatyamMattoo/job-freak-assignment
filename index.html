@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Freak Assignment</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="menu">
+        <ul>
+            <li id="home-menu" class="menu-item" onclick="showContent('home')">Home</li>
+            <li id="contact-menu" class="menu-item" onclick="showContent('contact')">Contact</li>
+            <li id="information-menu" class="menu-item" onclick="showContent('information')">Information</li>
+            <li id="guide-menu" class="menu-item" onclick="showContent('guide')">Guide</li>
+            <li id="close-button" onclick="closeContent()">Close</li>
+        </ul>
+    </div>
+
+    <div id="content">
+        <div id="home" class="content-item">
+            <h2>Home</h2>
+            <p>Hello, Welcome to the home page.</p>
+        </div>
+
+        <div id="contact" class="content-item">
+            <h2>Contact</h2>
+            <p>Email : satyammattoo2003@gmail.com</p>
+        </div>
+
+        <div id="information" class="content-item">
+            <h2>Information</h2>
+            <p>User information goes on this page.</p>
+        </div>
+        <div id="guide" class="content-item">
+            <h2>Guide</h2>
+            <p>Welcome to the guide to this website.</p>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
